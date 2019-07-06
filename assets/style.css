@@ -49,11 +49,31 @@ nav {
 }
 
 .power {
-  background-color: rgba(35, 96, 175, 0.877);
+  background-color: rgba(35, 96, 175, .8);
   padding: 25px;
   border-radius: 10px;
 }
 
 .power span {
+  color: white;
+}
+
+.source {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: rgba(35, 96, 175, 1);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.link {
+  padding: 10px;
+  margin-top: 30px;
+  background-color: rgba(74, 67, 185, .6);
+}
+
+a {
   color: white;
 }
