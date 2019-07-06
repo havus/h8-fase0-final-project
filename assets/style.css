@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'rubiklight';
+  src: url('rubik-light-webfont.woff2') format('woff2'),
+      url('rubik-light-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body, * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'rubiklight';
+}
+body {
+  background: url(bg.jpg);
+  background-attachment: cover;
+}
+
+nav {
+  height: 70px;
+  padding-bottom: 10px !important;
+  background: linear-gradient(to bottom, rgba(242, 246, 250, 1) 80%, rgba(75, 135, 180, 0) 95%);
+  text-align: center;
+  line-height: 70px;
+}
+
+.main {
+  margin: auto;
+  height: 500px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#mycanvas {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#speed {
+  background-color: #b3cde0;
+  border-radius: 10px;
+  width: 150px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.power {
+  background-color: rgba(35, 96, 175, 0.877);
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.power span {
+  color: white;
+}
